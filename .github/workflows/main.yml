@@ -25,7 +25,7 @@ jobs:
         #name: setup-buildx-action .
         #name: set up docker buildx build --platform linux/arm64 -t testbuild .
         #uses: docker/setup-buildx-action@v2
-        name: Set up Docker Buildx
+        name: Set up Docker Buildx .
         uses: docker/setup-buildx-action@v2
       -
         name: Build and push
