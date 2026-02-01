@@ -6,3 +6,4 @@ MarkupSafe==1.1.1
 #pkg-resources==0.0.0
 Werkzeug==1.0.1
 mysql-connector-python==8.0.31
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
